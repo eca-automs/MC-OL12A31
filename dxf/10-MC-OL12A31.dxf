@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+213.1722054380665
  22
-150.2573964497041
+211.2688821752266
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-304.0295857988166
+546.8882175226586
  41
-1.680924855491329
+0.7911832946635731
  42
 50
  43
@@ -2401,7 +2401,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2415,7 +2415,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2429,7 +2429,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2443,7 +2443,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2729,7 +2729,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D2
  70
     0
 280
@@ -2765,7 +2765,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -3391,7 +3391,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D1
+*D2
  70
     1
  10
@@ -3399,9 +3399,73 @@ AcDbBlockBegin
  20
 0
   3
-*D1
+*D2
   1
 
+  0
+LINE
+  5
+B4
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+27.79826086956523
+ 20
+88.7332214994865
+ 11
+27.79826086956523
+ 21
+92.86539541252996
+  0
+SOLID
+  5
+B5
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+27.79826086956523
+ 20
+88.7332214994865
+ 30
+0
+ 11
+27.38197621179239
+ 21
+91.2332214994865
+ 31
+0
+ 12
+28.21454552733807
+ 22
+91.2332214994865
+ 32
+0
+ 13
+28.21454552733807
+ 23
+91.2332214994865
+ 33
+0
   0
 ENDBLK
   5
@@ -3441,7 +3505,7 @@ AcDbBlockBegin
   0
 LINE
   5
-B4
+B6
 100
 AcDbEntity
   8
@@ -3465,7 +3529,7 @@ AcDbLine
   0
 SOLID
   5
-B5
+B7
 100
 AcDbEntity
   8
@@ -3527,7 +3591,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D2
+*D1
  70
     1
  10
@@ -3535,73 +3599,9 @@ AcDbBlockBegin
  20
 0
   3
-*D2
+*D1
   1
 
-  0
-LINE
-  5
-B6
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-27.79826086956523
- 20
-88.7332214994865
- 11
-27.79826086956523
- 21
-92.86539541252996
-  0
-SOLID
-  5
-B7
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-27.79826086956523
- 20
-88.7332214994865
- 30
-0
- 11
-27.38197621179239
- 21
-91.2332214994865
- 31
-0
- 12
-28.21454552733807
- 22
-91.2332214994865
- 32
-0
- 13
-28.21454552733807
- 23
-91.2332214994865
- 33
-0
   0
 ENDBLK
   5
@@ -31111,52 +31111,6 @@ ByLayer
 100
 AcDbMText
  10
-25.09683794466403
- 20
-48.28284600541533
- 30
-0
- 40
-4
- 41
-78.55555470754794
- 71
-    1
- 72
-    1
-  1
-DA SCHEDA - VEDI FOGLIO 3
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-405
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
 23.97047244094488
  20
 281.2145669291339
@@ -31189,7 +31143,7 @@ standard
   0
 LINE
   5
-406
+405
 100
 AcDbEntity
   8
@@ -31213,7 +31167,7 @@ AcDbLine
   0
 MTEXT
   5
-407
+406
 100
 AcDbEntity
   8
@@ -31259,7 +31213,7 @@ standard
   0
 MTEXT
   5
-408
+407
 100
 AcDbEntity
   8
@@ -31305,7 +31259,7 @@ standard
   0
 LINE
   5
-409
+408
 100
 AcDbEntity
   8
@@ -31329,7 +31283,7 @@ AcDbLine
   0
 MTEXT
   5
-40A
+409
 100
 AcDbEntity
   8
@@ -31375,7 +31329,7 @@ standard
   0
 MTEXT
   5
-40B
+40A
 100
 AcDbEntity
   8
@@ -31421,7 +31375,7 @@ standard
   0
 MTEXT
   5
-40C
+40B
 100
 AcDbEntity
   8
@@ -31467,7 +31421,7 @@ standard
   0
 MTEXT
   5
-40D
+40C
 100
 AcDbEntity
   8
@@ -31513,7 +31467,7 @@ standard
   0
 MTEXT
   5
-40E
+40D
 100
 AcDbEntity
   8
@@ -31559,7 +31513,7 @@ standard
   0
 MTEXT
   5
-40F
+40E
 100
 AcDbEntity
   8
@@ -31605,7 +31559,7 @@ standard
   0
 LWPOLYLINE
   5
-410
+40F
 100
 AcDbEntity
   8
@@ -31651,7 +31605,7 @@ AcDbPolyline
   0
 LINE
   5
-411
+410
 100
 AcDbEntity
   8
@@ -31675,7 +31629,7 @@ AcDbLine
   0
 LINE
   5
-412
+411
 100
 AcDbEntity
   8
@@ -31699,7 +31653,7 @@ AcDbLine
   0
 LINE
   5
-413
+412
 100
 AcDbEntity
   8
@@ -31723,7 +31677,7 @@ AcDbLine
   0
 LINE
   5
-414
+413
 100
 AcDbEntity
   8
@@ -31747,7 +31701,7 @@ AcDbLine
   0
 MTEXT
   5
-415
+414
 100
 AcDbEntity
   8
@@ -31793,7 +31747,7 @@ standard
   0
 MTEXT
   5
-416
+415
 100
 AcDbEntity
   8
@@ -31839,7 +31793,7 @@ standard
   0
 MTEXT
   5
-417
+416
 100
 AcDbEntity
   8
@@ -31885,7 +31839,7 @@ standard
   0
 MTEXT
   5
-418
+417
 100
 AcDbEntity
   8
@@ -31931,7 +31885,7 @@ standard
   0
 MTEXT
   5
-419
+418
 100
 AcDbEntity
   8
@@ -31977,7 +31931,7 @@ standard
   0
 MTEXT
   5
-41A
+419
 100
 AcDbEntity
   8
@@ -32006,6 +31960,52 @@ AcDbMText
     1
   1
 Schema: MC-OL12A31\PFoglio: 10 di 19
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+41A
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+25.09683794466403
+ 20
+48.28284600541533
+ 30
+0
+ 40
+4
+ 41
+78.99999915199214
+ 71
+    1
+ 72
+    1
+  1
+DA SCHEDA - VEDI FOGLIO 4
   7
 standard
 210
